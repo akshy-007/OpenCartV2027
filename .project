@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<projectDescription>
+	<name>OpencartV2027</name>
+	<comment></comment>
+	<projects>
+	</projects>
+	<buildSpec>
+		<buildCommand>
+			<name>org.eclipse.jdt.core.javabuilder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
+	</buildSpec>
+	<natures>
+		<nature>org.eclipse.jdt.core.javanature</nature>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
+	</natures>
+	<linkedResources>
+		<link>
+			<name>testdata/Opencart_LoginData.xlsx</name>
+			<type>1</type>
+			<location>C:/Users/91860/OneDrive/Documents/Selenium_Projects/opencart/Opencart_LoginData.xlsx</location>
+		</link>
+		<link>
+			<name>src/test/java/utilities/DataProviders.java</name>
+			<type>1</type>
+			<location>C:/Users/91860/OneDrive/Documents/Selenium_Projects/opencart/DataProviders.java</location>
+		</link>
+		<link>
+			<name>src/test/java/utilities/ExcelUtility.java</name>
+			<type>1</type>
+			<location>C:/Users/91860/OneDrive/Documents/Selenium_Projects/opencart/ExcelUtility.java</location>
+		</link>
+		<link>
+			<name>src/test/java/utilities/ExtentReportManager.java</name>
+			<type>1</type>
+			<location>C:/Users/91860/OneDrive/Documents/Selenium_Projects/opencart/ExtentReportManager.java</location>
+		</link>
+	</linkedResources>
+</projectDescription>
