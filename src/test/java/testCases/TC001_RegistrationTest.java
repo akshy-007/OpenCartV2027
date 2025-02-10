@@ -13,7 +13,7 @@ import pageObjects.HomePage;
 import pageObjects.RegistrationPage;
 import testBase.BaseClass;
 
-public class TC001 extends BaseClass{
+public class TC001_RegistrationTest extends BaseClass{
 	
 	
 	@Test(groups= {"Sanity","Master"})
