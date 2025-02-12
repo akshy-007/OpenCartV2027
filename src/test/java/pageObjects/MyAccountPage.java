@@ -23,6 +23,8 @@ public class MyAccountPage extends BasePage{
 	@FindBy(xpath="//button[@type='button'] [@class='btn btn-default btn-lg']")
 	WebElement boxSearch;
 	
+	@FindBy(xpath="//a[text()='Edit Account']")
+	WebElement lnkEditAccount;
 	
 	//3.Action Methods
 	public boolean isHeadingDisplay()
@@ -48,4 +50,8 @@ public class MyAccountPage extends BasePage{
 		boxSearch.click();
 	}
 	
+	public void clickEditAccount()
+	{
+		lnkEditAccount.click();
+	}
 }

@@ -26,6 +26,9 @@ public class LoginPage extends BasePage{
 	WebElement lnkForgotpass;
 	
 	
+	
+	
+	
 	//3.Action Methods:
 	
 		public void setEmail(String email)
@@ -49,4 +52,8 @@ public class LoginPage extends BasePage{
 		{
 			lnkForgotpass.click();
 		}
+		
+		
+		
+		
 }
