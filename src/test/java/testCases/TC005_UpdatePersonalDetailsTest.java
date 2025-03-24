@@ -15,6 +15,7 @@ public class TC005_UpdatePersonalDetailsTest extends BaseClass{
 	public void Update_Personal_Data(){
 		{
 			
+			System.out.println("TC005-Test UpdatePersonal Details started.....");
 			HomePage hp=new HomePage(driver);
 			hp.clickMyAccount();
 			hp.clicklogin();
@@ -37,7 +38,7 @@ public class TC005_UpdatePersonalDetailsTest extends BaseClass{
 			
 			Assert.assertEquals(Cmsg, true);
 			
-			
+			System.out.println("TC005-Test UpdatePersonal Details Ended.....");
 		}
 	}
 }

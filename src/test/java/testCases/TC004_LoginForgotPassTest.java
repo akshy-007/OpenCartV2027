@@ -16,6 +16,7 @@ public class TC004_LoginForgotPassTest extends BaseClass{
 	
 		@Test
        public void Verify_ForgotPass() {
+			System.out.println("TC004-Test LoginForgotPass started.....");
 		
 			HomePage hp=new HomePage(driver);
 			hp.clickMyAccount();
@@ -30,6 +31,7 @@ public class TC004_LoginForgotPassTest extends BaseClass{
 			
 			boolean msg=fp.isButtonDisplay();
 			Assert.assertEquals(true, msg);
+			System.out.println("TC004-Test LoginForgotPass Ended.....");
 	}
 
 }

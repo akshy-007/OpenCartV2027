@@ -18,7 +18,7 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 
 
-
+//baseclass contains Reusable stuff Like SetUp ,Tear down method ,Random String and number generator method,Screenshot,
 public class BaseClass {
 	
 	public  static WebDriver driver;

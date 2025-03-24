@@ -13,6 +13,7 @@ public class TC002_LoginTest extends BaseClass{
 	@Test(groups={"Regression","Master"})
 	public void verify_Login()
 	{
+		System.out.println("TC002-Test Login started.....");
 		HomePage hp=new HomePage(driver);
 		hp.clickMyAccount();
 		hp.clicklogin();
@@ -26,7 +27,7 @@ public class TC002_LoginTest extends BaseClass{
 		boolean val=ap.isHeadingDisplay();
 		
 		Assert.assertEquals(true, val);
-		System.out.println("TC002....");
+		System.out.println("TC002 Ended....");
 	}
 	
 }

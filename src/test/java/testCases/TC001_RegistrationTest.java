@@ -19,6 +19,7 @@ public class TC001_RegistrationTest extends BaseClass{
 	@Test(groups= {"Sanity","Master"})
 	public void verify_reg()
 	{
+		System.out.println("TC001-Test Rgistration started.....");
 		HomePage hp=new HomePage(driver);
 		hp.clickMyAccount();
 		hp.clickRegister();
@@ -42,7 +43,7 @@ public class TC001_RegistrationTest extends BaseClass{
 		System.out.println(confmsg);
 		Assert.assertEquals(confmsg,"Continue");
 		
-		System.out.println("TC001.........");
+		System.out.println("TC001 Ended.........");
 		
 	}
 }

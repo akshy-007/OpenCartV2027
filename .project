@@ -27,6 +27,11 @@
 			<location>C:/Users/91860/OneDrive/Documents/Selenium_Projects/opencart/Opencart_LoginData.xlsx</location>
 		</link>
 		<link>
+			<name>src/test/resources/log4j2.xml</name>
+			<type>1</type>
+			<location>C:/Users/91860/OneDrive/Documents/Selenium_Projects/opencart/log4j2.xml</location>
+		</link>
+		<link>
 			<name>src/test/java/utilities/DataProviders.java</name>
 			<type>1</type>
 			<location>C:/Users/91860/OneDrive/Documents/Selenium_Projects/opencart/DataProviders.java</location>
